@@ -1,0 +1,107 @@
+{
+"rows": [
+{
+"type": "Input",
+"label": "总天数",
+"placeholder": "请输入总天数",
+"required": false,
+"code": "F1",
+"itemType": "number"
+},
+{
+"type": "PhotoTaker",
+"label": "门店照",
+"maxCount": "5",
+"required": false,
+"code": "F14",
+"readonly": "false"
+},
+{
+"type": "Date",
+"label": "请假开始日期",
+"placeholder": "请选择请假日期",
+"required": true,
+"itemType": "date",
+"code": "F2"
+},
+{
+"type": "Select",
+"label": "请假类型",
+"placeholder": "请输入选择",
+"items": [
+"病假",
+"婚假",
+"事假",
+"丧假",
+"探亲假",
+"年假",
+"产假",
+"其他"
+],
+"required": false,
+"code": "F3"
+},
+{
+"type": "Input",
+"label": "请假事由",
+"placeholder": "请输入请假事由",
+"required": false,
+"code": "F4",
+"itemType": "textarea"
+},
+{
+"type": "SelectRadio",
+"label": "是否商品实体",
+"required": false,
+"code": "F5",
+"items": [
+"是",
+"否"
+]
+},
+{
+"type": "Group",
+"label": "门店信息",
+"code": "F6",
+"subRows": [
+{
+"type": "Input",
+"label": "售点",
+"placeholder": "请输入售点",
+"required": true,
+"code": "F2_1"
+},
+{
+"type": "Input",
+"label": "已有演示机数量",
+"placeholder": "请输入已有演示机数量",
+"required": true,
+"code": "F2_2",
+"itemType": "number"
+}
+]
+},
+{
+"type": "GroupClone",
+"label": "人员信息",
+"code": "F7",
+"subRows": [
+{
+"type": "Input",
+"label": "名称",
+"placeholder": "请输入名称",
+"required": true,
+"code": "F2_1"
+},
+{
+"type": "Input",
+"label": "年龄",
+"placeholder": "请输入年龄",
+"required": true,
+"code": "F2_2",
+"itemType": "number"
+}
+]
+}
+]
+}
